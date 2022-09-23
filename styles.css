@@ -1,0 +1,90 @@
+body {
+    display: block;
+    font-family: "Montserrat", serif;
+}
+
+.topbox {
+    
+    background-color: rgb(106, 104, 104);
+    color: white;
+    border: 10px;
+    margin: 100px;
+    padding: 75px;
+}
+
+a {
+    margin: 10px;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+.head1 {
+    display: flex;
+    justify-content: space-between;  
+    height: 50px;
+    
+} 
+
+#one {
+display: flex;
+justify-content: column;
+}
+
+#mthoodimg {
+    height: 250px;
+    width: 450px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.middlerow {
+    display: flex;
+    justify-content: center;
+}
+
+#imgtwo {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    border-color:#1BCBF2;
+}
+
+.item1, .item2, .item3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 130px;
+    margin: 20px;
+}
+
+.h-one {
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    display: flex;
+    padding: 100px;
+    background-color: lightblue;
+    margin: 200px;
+    flex-direction: column;
+}
+
+#jm {
+    align-items: right;
+}
+
+button {
+    height: 45px;
+    width: 100px;
+    background-color: #1BCBF2;
+    font-size:large;
+    font-style: bold;
+    border-radius: 7px;
+    color: rgb(230, 241, 248);
+    border-color: #1BCBF2;
+}
